@@ -1,5 +1,40 @@
+# 0.3.8+1
+* Migrate tests off deprecated APIs.
+* Bump min Flutter version to 3.1.0.
+
+# 0.3.8
+* Add ScrollOffsetController to allow pixel-based changes in offset.
+* Bump min sdk version to 2.15.0
+
+# 0.3.7
+* Add ScrollOffsetListener to allow listening to changes in scroll offset.
+
+# 0.3.6
+* Fix cache extents for horizontal lists
+* scrollTo future doesn't complete until scrolling is done.
+
+# 0.3.5
+* Fix extraneous animation controller declaration in 0.3.4.
+
+# 0.3.4
+* Disposed the animation controller when disposing the scrollable list.
+
+# 0.3.3
+* Fix potential crash when reading from RenderBox.size.
+
+# 0.3.2
+* Re-apply Flutter framework bindings' null safety calls but set SDK
+  constraints correctly to 2.12.0 instead.
+
+# 0.3.1
+* Reverts change from 0.3.0 where the Flutter version constraint should have
+  been set to 2.12.0 instead of 2.10.5.
+
+# 0.3.0
+  * Move to Flutter version 2.10.5 and update dependencies' null safety calls.
+
 # 0.2.3
-  * Support shrink wrap
+  * Support shrink wrap.
 # 0.2.2
   * Move dependencies from pre-release versions to released versions.
 
